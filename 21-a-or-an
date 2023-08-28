@@ -1,0 +1,8 @@
+public String aOrAn(String word) {
+    //code here
+    If(word.starstWith('a')){
+        return 'an';
+    }else{
+        return 'a'
+    }
+}
