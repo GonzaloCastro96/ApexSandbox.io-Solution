@@ -2,8 +2,8 @@ public String aOrAn(String word) {
     //code here
     String letra= String.valueOf(word);
     If(letra.starstWith('a'){
-        return 'an '+ word;
+        return 'Result should be an '+ word;
     }else{
-        return 'a '+ word;
+        return 'Result should be a '+ word;
     }
 }
