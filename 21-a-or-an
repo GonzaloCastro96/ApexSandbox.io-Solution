@@ -1,11 +1,11 @@
 public String aOrAn(String word) {
     //code here
     String letra= String.valueOf(word);
-    If(letra.starstWith('a')|| 
-    letra.starstWith('e')|| 
-    letra.starstWith('i')||
-    letra.starstWith('o')||
-    letra.starstWith('u')){
+    If(letra.startsWith('a')||
+      letra.startsWith('e')||
+      letra.startsWith('i')||
+      letra.startsWith('o')||
+      letra.startsWith('u')){
         String frase= 'an '+ word;
         return frase;
     }else{
