@@ -1,6 +1,6 @@
 public String aOrAn(String word) {
     //code here
-    If(word.starstWith('a')){
+    If(word.starstWith(a)){
         return 'an '+ word;
     }else{
         return 'a '+ word;
