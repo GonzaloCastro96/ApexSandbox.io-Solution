@@ -6,10 +6,10 @@ public String aOrAn(String word) {
     letra.starstWith('i')||
     letra.starstWith('o')||
     letra.starstWith('u')){
-        String frase= 'an ';
+        String frase= 'an '+ word;
         return frase;
     }else{
-        String frase= 'a ';
+        String frase= 'a '+ word;
         return frase;
     }
 }
