@@ -1,9 +1,11 @@
 public static Integer findLargest(Integer num1, Integer num2, Integer num3) {
 	//code here
     List <Integer> numeros= new List <Integer> {num1,num2,num3} ;
-    Integer numeroFinal = 0;
+    Integer numeroFinal;
     for(Integer num: numeros){
-        if(numeroFinal <= num){
+        if(numeroFinal== null){
+            numeroFinal=num1;
+        }else if(numeroFinal <= num){
             numeroFinal=num;
         }
     }
