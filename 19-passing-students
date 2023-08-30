@@ -3,7 +3,7 @@ public Boolean isPassed(Boolean passedExam, Boolean passedAssignments, Boolean p
 Integer Contador=0;
 For(Boolean paso:Pass){
 	If(paso==true){
-            Contador =+1;
+            Contador =Contador + 1;
     }
 }
 If(Contador>=2){
