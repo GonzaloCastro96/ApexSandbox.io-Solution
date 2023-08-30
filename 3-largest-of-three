@@ -1,9 +1,9 @@
 public static Integer findLargest(Integer num1, Integer num2, Integer num3) {
 	//code here
-    List <Integer> numeros= [num1,num2,num3];
+    List <Integer> numeros= new List <Integer> {5,3,8} ;
     Integer numeroFinal=0;
     For(Integer num: numeros){
-        If(numeroFinal<num){
+        If(numeroFinal <= num){
             numeroFinal=num;
         }
     }
