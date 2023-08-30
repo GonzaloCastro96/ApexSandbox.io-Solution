@@ -1,14 +1,11 @@
 public static Integer findLargest(Integer num1, Integer num2, Integer num3) {
 	//code here
     List <Integer> numeros= [num1,num2,num3];
-    Integer largo=0;
+    Integer numeroFinal=0;
     For(Integer num: numeros){
-        String large= String.valueOf(num);
-        if (largo<large.length()){
-            largo= num;
-        }else{
-            //do nothing
+        If(numeroFinal<num){
+            numeroFinal=num;
         }
     }
-    return largo;
+    return numeroFinal;
 }
