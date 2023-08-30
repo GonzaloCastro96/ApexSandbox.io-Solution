@@ -1,3 +1,15 @@
 public Boolean isPassed(Boolean passedExam, Boolean passedAssignments, Boolean passedProject) {
-    //code here
+    List <Boolean> Pass= new List <Boolean>{passedExam, passedAssignments, passedProject};
+Integer Contador=0;
+For(Boolean paso:Pass){
+	If(paso==true){
+            Contador =+1;
+    }
+}
+If(Contador>=2){
+	return true;    
+}else{
+    return false;
+}
+    
 }
